@@ -174,4 +174,9 @@ sort($colors);                           //Use the correct array method to sort 
 echo "<br>" ;
 rsort($colors);
 
+echo "<br>" 
+$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+asort($age)                                //Use the correct array method to sort the $age array according to the values.
+;
+
 ?>
