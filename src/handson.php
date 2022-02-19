@@ -145,4 +145,8 @@ function myFunction($fname, $lname) {
   }                                //Inside a function with two parameters, print the first parameter.
 
 
+function myFunction($fname, $lname) {
+    return $lname;
+}                                  //Let the function return the second value.
+
 ?>
