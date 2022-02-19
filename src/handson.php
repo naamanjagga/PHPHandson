@@ -103,4 +103,14 @@ switch ($color) {
       echo "Neither";
   }                   //Add a section that will output "Neither" if $color is neither "red" nor "green"
 
+  $i = 1; 
+
+echo "<br>" ;
+while ($i < 6) 
+{
+  echo $i;
+  $i++;
+}                //Output $i as long as $i is less than 6.
+
+
 ?>
