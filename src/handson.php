@@ -187,5 +187,8 @@ First name: <input type="text" name="fname">
 echo "<br>" ;
 echo date("l");  //Use the correct date function to output the weekday of today (monday, tuesday etc.).
 
+echo "<br>" ;
+echo date("Y.m.d");   //Use the correct format parameter to output a date like this: 2022.02.19.
+
 ?>
 
