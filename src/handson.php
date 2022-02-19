@@ -125,5 +125,12 @@ for ($i = 0; $i < 10; $i++) {
   echo $i;
 }                             //Create a loop that runs from 0 to 9.
 
+echo "<br>" ;
+$colors = array("red", "green", "blue", "yellow"); 
+
+foreach ($colors as $x) {
+  echo $x.'<br>';
+}                               //Loop through the items in the $colors array
+
 
 ?>
