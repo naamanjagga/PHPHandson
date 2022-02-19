@@ -202,6 +202,8 @@ setcookie("username", "John", time() + (86400 * 30), "/");  //Create a cookie na
 session_start();
 $_SESSION["favcolor"] = "green";  //Create a session variable named "favcolor".
 
+echo $_SESSION["favcolor"];  //Output the value of the session variable favcolor
+
 // $myfile = fopen("webdict.txt", "r");
 
 // while(!feof($myfile)) {
