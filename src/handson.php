@@ -112,5 +112,13 @@ while ($i < 6)
   $i++;
 }                //Output $i as long as $i is less than 6.
 
+$i = 1; 
+
+echo "<br>" ;
+do {
+    echo $i;
+    $i++;
+} while ($i < 6);   //Output $i as long as $i is less than 6.
+
 
 ?>
