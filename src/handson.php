@@ -137,5 +137,7 @@ function myFunction() {
   echo "Hello World!";
 }                          //Create a function named myFunction.
 
+myFunction();   //Call (execute) a function named myFunction.
+
 
 ?>
