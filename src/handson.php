@@ -27,12 +27,18 @@ $x = 5;
 $y = 7;
 echo $x + $y;   //Create one variable named x, and one variable named y, then use the echo statement to output the sum of x and y.
 
+echo "<br>";
 echo strlen("Hello World!"); //Get the length of the string "Hello World!".
 
+echo "<br>";
 echo strrev("Hello World!");  //Reverse the string "Hello World!".
 
+echo "<br>";
 $oldtxt = "Hello World!";
 $newtxt = str_replace("World", "Dolly", $oldtxt);  //Replace the word "World" with the word "Dolly".
+
+echo "<br>";
+echo 10 * 5;  //Multiply 10 with 5, and output the result.
 
 
 ?>
