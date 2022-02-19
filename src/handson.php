@@ -140,13 +140,17 @@ function myFunction() {
 myFunction();   //Call (execute) a function named myFunction.
 
 echo "<br>" ;
-function myFunction($fname, $lname) {
+function myFunction1($fname, $lname) {
     echo  $fname;
   }                                //Inside a function with two parameters, print the first parameter.
 
 
-function myFunction($fname, $lname) {
+function myFunction2($fname, $lname) {
     return $lname;
 }                                  //Let the function return the second value.
+
+echo "<br>" ;
+$fruits = array("Apple", "Banana", "Orange");
+echo count($fruits);                         //Use the correct function to output the number of items in an array.
 
 ?>
