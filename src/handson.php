@@ -31,5 +31,8 @@ echo strlen("Hello World!"); //Get the length of the string "Hello World!".
 
 echo strrev("Hello World!");  //Reverse the string "Hello World!".
 
+$oldtxt = "Hello World!";
+$newtxt = str_replace("World", "Dolly", $oldtxt);  //Replace the word "World" with the word "Dolly".
+
 
 ?>
