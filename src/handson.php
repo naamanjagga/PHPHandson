@@ -196,5 +196,11 @@ echo date("Y.m.d");   //Use the correct format parameter to output a date like t
 echo "<br>" ;
 echo date("H:i:s");   //Use the correct format parameter to output the time like this: 11:45:06
 
+$myfile = fopen("webdict.txt", "r");
+
+while(!feof($myfile)) {
+  echo fgetc($myfile);
+}                         //Open a file, and write the correct syntax to output one character at the time, until end-of-file.
+
 ?>
 
