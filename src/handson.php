@@ -179,7 +179,7 @@ $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
 asort($age);                               //Use the correct array method to sort the $age array according to the values
 
 ?>
-<form action="welcome.php" method="get">
+<form action="welcome.php" method="post">
 First name: <input type="text" name="fname">
 </form>                         
 <?php // If the form in the white section below gets submitted, how can you, in welcome.php, output the value from the "first name" field?
