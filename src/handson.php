@@ -40,5 +40,8 @@ $newtxt = str_replace("World", "Dolly", $oldtxt);  //Replace the word "World" wi
 echo "<br>";
 echo 10 * 5;  //Multiply 10 with 5, and output the result.
 
+echo "<br>";
+echo 10 / 2;  //Divide 10 by 2, and output the result.
+
 
 ?>
