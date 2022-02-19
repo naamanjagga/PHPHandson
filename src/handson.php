@@ -132,5 +132,10 @@ foreach ($colors as $x) {
   echo $x.'<br>';
 }                               //Loop through the items in the $colors array
 
+echo "<br>" ;
+function myFunction() {
+  echo "Hello World!";
+}                          //Create a function named myFunction.
+
 
 ?>
