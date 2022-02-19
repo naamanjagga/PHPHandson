@@ -52,9 +52,9 @@ var_dump($a <> $b); //Use the correct comparison operator to check if $a is NOT 
 echo "<br>";
 $a = 50;
 $b = 10;
-if($a > $b) { 
+if($a != $b) { 
     echo "Hello World";
-}                       //Output "Hello World" if $a is greater than $b
+}                       //Output "Hello World" if $a is NOT equal to $b
 
 
 ?>
