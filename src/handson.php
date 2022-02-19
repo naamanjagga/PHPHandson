@@ -156,8 +156,16 @@ echo count($fruits);                         //Use the correct function to outpu
 echo "<br>" ;
 echo $fruits[1];     //Output the second item in the $fruits array.
 
+
+echo "<br>" ;
 $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");  //Create an associative array containing the age of Peter, Ben and Joe.
 
 echo "Ben is " .$age["Ben"]. " years old.";  //Here you see an associative array. Output "age" of Ben.
+
+echo "<br>" ;
+
+foreach($age as $x => $y) {
+    echo "Key=" . $x . ", Value=" . $y;
+}                                         //Loop through an associative array and output the key and the value.
 
 ?>
