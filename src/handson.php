@@ -190,5 +190,8 @@ echo date("l");  //Use the correct date function to output the weekday of today 
 echo "<br>" ;
 echo date("Y.m.d");   //Use the correct format parameter to output a date like this: 2022.02.19.
 
+echo "<br>" ;
+echo date("H:i:s");   //Use the correct format parameter to output the time like this: 11:45:06
+
 ?>
 
