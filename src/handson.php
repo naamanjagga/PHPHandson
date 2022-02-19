@@ -171,4 +171,7 @@ foreach($age as $x => $y) {
 $colors = array("red", "green", "blue", "yellow"); 
 sort($colors);                           //Use the correct array method to sort the $colors array alphabetically.
 
+echo "<br>" ;
+rsort($colors);
+
 ?>
