@@ -56,5 +56,15 @@ if($a != $b) {
     echo "Hello World";
 }                       //Output "Hello World" if $a is NOT equal to $b
 
+echo "<br>";
+$a = 50;
+$b = 10;
+if($a == $b) {
+  echo "Yes";
+} else
+ {
+  echo "No";
+}                //Output "Yes" if $a is equal to $b, otherwise output "No".
+
 
 ?>
