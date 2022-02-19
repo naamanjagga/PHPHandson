@@ -29,5 +29,7 @@ echo $x + $y;   //Create one variable named x, and one variable named y, then us
 
 echo strlen("Hello World!"); //Get the length of the string "Hello World!".
 
+echo strrev("Hello World!");  //Reverse the string "Hello World!".
+
 
 ?>
