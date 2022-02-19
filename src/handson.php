@@ -1,4 +1,7 @@
+<?php include "footer.php";?>
+
 <?php 
+echo readfile("webdict.txt"); //Assume we have a file named "webdict.txt", write the correct syntax to open and read the file content.
 
 echo "Hello World";  //Insert the missing part of the code below to output "Hello World".
 ?>
