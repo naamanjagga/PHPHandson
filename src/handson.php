@@ -27,5 +27,7 @@ $x = 5;
 $y = 7;
 echo $x + $y;   //Create one variable named x, and one variable named y, then use the echo statement to output the sum of x and y.
 
+echo strlen("Hello World!"); //Get the length of the string "Hello World!".
+
 
 ?>
