@@ -183,4 +183,9 @@ asort($age);                               //Use the correct array method to sor
 First name: <input type="text" name="fname">
 </form>                         
 <?php // If the form in the white section below gets submitted, how can you, in welcome.php, output the value from the "first name" field?
+
+echo "<br>" ;
+echo date("1");  //Use the correct date function to output the weekday of today (monday, tuesday etc.).
+
 ?>
+
