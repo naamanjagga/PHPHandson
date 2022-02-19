@@ -15,6 +15,9 @@ echo "This is PHP";   //Write the correct opening tag and close tag for PHP scri
 /* This is a
 multi-line
 comment*/     //multi-line comment
+echo "<br>";
+echo "Hello World";  //Statements in PHP have to end with a special character
+
 
 
 ?>
