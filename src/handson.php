@@ -153,4 +153,9 @@ echo "<br>" ;
 $fruits = array("Apple", "Banana", "Orange");
 echo count($fruits);                         //Use the correct function to output the number of items in an array.
 
+echo "<br>" ;
+echo $fruits[1];     //Output the second item in the $fruits array.
+
+$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");  //Create an associative array containing the age of Peter, Ben and Joe.
+
 ?>
